@@ -1,0 +1,84 @@
+.topMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  height: 50px;
+  padding: 10px 20px;
+  
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.topMenu a {
+  text-decoration: none;
+  color: black !important;
+}
+
+/* --- Logo --- */
+.topMenu .logo {
+  display: flex;
+  column-gap: 15px;
+
+  align-items: center;
+}
+
+.topMenu .logo a {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+/* --- Logo --- */
+
+/* --- Nav Items --- */
+.topMenu .navItems {
+  display: flex;
+  column-gap: 10px;
+}
+
+.topMenu .navItems a {
+  padding: 5px 10px;
+  
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.topMenu .navItems a:hover {
+  background-color: var(--white2);
+}
+/* --- Nav Items --- */
+
+/* --- Action Icons --- */
+.topMenu .actions {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.topMenu .actions span {
+  cursor: pointer;
+}
+
+.topMenu .actions a {
+  font-size: 1.2rem;
+}
+
+.topMenu .actions .cartIcon {
+  position: relative;
+}
+
+.topMenu .actions .cartIcon .cartCount {
+  position: absolute;
+  top: -7px;
+  right: -6px;
+
+  width: 15px;
+  height: 15px;
+
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  color: white;
+  background-color: var(--blue1);
+  border-radius: 100%;
+}
+/* --- Action Icons --- */

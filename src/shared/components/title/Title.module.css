@@ -1,0 +1,14 @@
+.title {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.title h1,
+.title h3 {
+    font-weight: 500;
+    margin: 0;
+}
